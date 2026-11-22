@@ -1,50 +1,32 @@
-reserve.md
-HELP.md
-.gradle
-google-services.json
-build/
-app/release/
-
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
+# ==== Android Studio / IntelliJ ====
+.idea/
 *.iml
 *.ipr
-out/
-
-### Android Studio ###
-local.properties
+*.iws
 captures/
-.externalNativeBuild
-.cxx
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-### VS Code ###
-.vscode/
-
-### Package Files ###
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-### Gradle ###
+# ==== Gradle ====
+.gradle/
+build/
+app/build/
 !gradle/wrapper/gradle-wrapper.jar
+!gradlew
+!gradlew.bat
+
+# ==== Локальные настройки ====
+local.properties
+
+# ==== Тестовые артефакты и отчёты ====
+allure-report/
+allure-results/
+allure-results.tar
+allure-report-fmh.zip
+results.tar
+files/
+
+# ==== Дампы UI Automator ====
+*_dump.xml
+
+# ==== Системный мусор ====
+.DS_Store
+Thumbs.db

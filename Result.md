@@ -2,7 +2,7 @@
 
 **Проект:** Автоматизация тестирования мобильного приложения «МП ФМХ» (fmh_android)
 **Инструменты:** Java, Android Studio, Espresso, UI Automator, Allure, Gradle
-**Окружение:** эмулятор Android (API 33), Windows 10/11
+**Окружение:** эмулятор Pixel 9, Android (API 36), Windows 11
 
 ---
 

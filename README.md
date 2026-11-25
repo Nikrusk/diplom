@@ -109,7 +109,7 @@ allure generate files/allure-results -o allure-report --clean
 allure open allure-report
 ```
 
-Готовый отчёт — папка `allure-report` (содержит `index.html`, `data`, `widgets`, `history` и т. д.). Для передачи достаточно заархивировать её целиком в ZIP — отчёт самодостаточен и открывается без установки Allure.
+Готовый отчёт — папка `allure-report` (содержит `index.html`, `data`, `widgets`, `history` и т. д.). Проект сдаётся архивом **allure-results.zip**, в который входят обе папки: **allure-results** (сырые JSON-результаты прогона, выгруженные с устройства) и **allure-report** (собранный HTML-отчёт). Отчёт самодостаточен и открывается без установки Allure.
 
 ## Скриншоты при падении теста
 

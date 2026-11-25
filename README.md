@@ -8,12 +8,22 @@
 
 ```
 app/src/androidTest/java/ru/edu/qamid/
+    pages/                  # page object'ы
+        ControlPanelPage
+        EditNewsPage
+        FilterNewsPage
+        LoginPage
+        NavigationPage
+        NewsPage
+        QuotesPage
     tests/                  # тестовые классы
         AuthorizationTest.kt
         NavigationTest.kt
         NewsTest.kt
-    pages/                  # page object'ы
-    helpers/                # вспомогательные функции (ожидания, скриншоты)
+        QuotesTest.kt
+        SeedNewsTest.kt
+    utils/                  # вспомогательные функции (ожидания элементов)
+        WaitFor.kt
 allure-report/              # сгенерированный HTML-отчёт (после прогона)
 ```
 

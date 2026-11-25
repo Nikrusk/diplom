@@ -1,7 +1,7 @@
 # Result.md — Итоговый отчёт по дипломному проекту
 
 **Проект:** Автоматизация тестирования мобильного приложения «МП ФМХ» (fmh_android)
-**Инструменты:** Java, Android Studio, Espresso, UI Automator, Allure, Gradle
+**Инструменты:** Kotlin, Android Studio, Espresso, UI Automator, Allure, Gradle
 **Окружение:** эмулятор Pixel 9, Android (API 36), Windows 11
 
 ---
